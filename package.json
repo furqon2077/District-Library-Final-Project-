@@ -2,7 +2,8 @@
   "scripts": {
     "postinstall": "cd ./test && npm i || true",
     "test": "cd ./test && npm run test",
-    "build": "echo \"Dummy build script for Autocode\""
+    "build": "echo \"Dummy build script for Autocode\"",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "dependencies": {
     "json": "^11.0.0",
