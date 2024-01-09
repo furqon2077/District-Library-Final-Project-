@@ -3,9 +3,10 @@
     "postinstall": "cd ./test && npm i || true",
     "test": "cd ./test && npm run test",
     "build": "echo \"Dummy build script for Autocode\"",
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "sass": "node-sass -w src/styles/ -o src/dist/"
   },
   "dependencies": {
+    "bem-xjst": "^8.10.0",
     "json": "^11.0.0",
     "lodash": "^4.17.21",
     "node-sass": "^9.0.0",

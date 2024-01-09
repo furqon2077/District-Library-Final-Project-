@@ -9,7 +9,7 @@
    {
       "scripts" {
          "postinstall": "cd ./test && npm i || true",
-         "test": "cd ./tests && npm run tes  t",
+         "test": "cd ./test && npm run test",
          "build": "echo \"Dummy build script for Autocode\""
       }
 
