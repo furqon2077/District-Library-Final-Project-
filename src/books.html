@@ -28,11 +28,11 @@
       <nav>
         <div class="logo">
           <a href="./index.html"> <!-- Adjust the href to point to your home page -->
-            <img src="./img/desktop/library logo.ico" alt="Library Logo">
+            <img src="./img/desktop/logo3.png" alt="Library Logo">
           </div>
         <ul>
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./books.html">About</a></li>
+          <li><a href="./books.html">Books</a></li>
           <li>
             <a href="#">Services</a>
             <!-- Submenu -->
@@ -50,15 +50,32 @@
         <a href="./about.html">Home</a> > <a href="#">Category 1</a> > <a href="#">Subcategory 1.1</a> > Current Page
       </div>
 
+      <div class="container">
+        <!-- Content goes here -->
+      <aside>
+        <!-- Left menu (if any) -->
+        <!-- Map on the "Contacts" page -->
+      </aside>
+
+
+      <div>
+        <button id="sortAsc">Sort Asc</button>
+        <button id="sortDesc">Sort Desc</button>
+      </div>
+      <div>
+        <input type="text" id="filterInput" placeholder="Filter by keyword">
+        <button id="filterButton">Filter</button>
+      </div>
+
       <div class="content-block">
+        <div id="gallery" class="gallery-container"></div>
+        <div id="pagination" class="pagination-container"></div>
+
+        <script src="gallery.js"></script>
 
       </div>
+      </div>
     </main>
-
-    <aside>
-      <!-- Left menu (if any) -->
-      <!-- Map on the "Contacts" page -->
-    </aside>
 
     <footer>
       <!-- Footer content -->

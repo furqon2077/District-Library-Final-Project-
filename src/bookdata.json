@@ -1,0 +1,399 @@
+[
+    {
+        "genre": "Mystery",
+        "bookName": "Whispers in the Shadows",
+        "authorName": "Daniel Harris",
+        "publishedYear": 2015,
+        "inLoan": "yes",
+        "loanStartDate": "10/01/2023",
+        "loanEndDate": "20/01/2023",
+        "src": "source_1",
+        "alt": "alternative_text_1"
+    },
+    {
+        "genre": "Science Fiction",
+        "bookName": "Beyond the Stars",
+        "authorName": "Emily Thompson",
+        "publishedYear": 2020,
+        "inLoan": "no",
+        "src": "source_2",
+        "alt": "alternative_text_2"
+    },
+    {
+        "genre": "Fantasy",
+        "bookName": "Realm of Enchantment",
+        "authorName": "Christopher Evans",
+        "publishedYear": 2018,
+        "inLoan": "yes",
+        "loanStartDate": "05/02/2023",
+        "loanEndDate": "15/02/2023",
+        "src": "source_3",
+        "alt": "alternative_text_3"
+    },
+    {
+        "genre": "Romance",
+        "bookName": "Love's Serenade",
+        "authorName": "Isabella Rodriguez",
+        "publishedYear": 2019,
+        "inLoan": "no",
+        "src": "source_4",
+        "alt": "alternative_text_4"
+    },
+    {
+        "genre": "Historical Fiction",
+        "bookName": "Echoes of the Past",
+        "authorName": "Thomas Williams",
+        "publishedYear": 2017,
+        "inLoan": "yes",
+        "loanStartDate": "12/03/2023",
+        "loanEndDate": "22/03/2023",
+        "src": "source_5",
+        "alt": "alternative_text_5"
+    },
+    {
+        "genre": "Thriller",
+        "bookName": "Deadly Pursuit",
+        "authorName": "Samantha Reed",
+        "publishedYear": 2021,
+        "inLoan": "no",
+        "src": "source_6",
+        "alt": "alternative_text_6"
+    },
+    {
+        "genre": "Adventure",
+        "bookName": "Quest for the Lost City",
+        "authorName": "David Anderson",
+        "publishedYear": 2016,
+        "inLoan": "yes",
+        "loanStartDate": "18/04/2023",
+        "loanEndDate": "28/04/2023",
+        "src": "source_7",
+        "alt": "alternative_text_7"
+    },
+    {
+        "genre": "Dystopian",
+        "bookName": "Broken World",
+        "authorName": "Olivia Baker",
+        "publishedYear": 2022,
+        "inLoan": "no",
+        "src": "source_8",
+        "alt": "alternative_text_8"
+    },
+    {
+        "genre": "Comedy",
+        "bookName": "Laugh Out Loud",
+        "authorName": "Michael Johnson",
+        "publishedYear": 2014,
+        "inLoan": "no",
+        "src": "source_9",
+        "alt": "alternative_text_9"
+    },
+    {
+        "genre": "Psychological Thriller",
+        "bookName": "Mind Games",
+        "authorName": "Jessica Lee",
+        "publishedYear": 2019,
+        "inLoan": "yes",
+        "loanStartDate": "01/06/2023",
+        "loanEndDate": "11/06/2023",
+        "src": "source_10",
+        "alt": "alternative_text_10"
+    },
+    {
+        "genre": "Science Fiction",
+        "bookName": "Galactic Odyssey",
+        "authorName": "Richard Turner",
+        "publishedYear": 2018,
+        "inLoan": "no",
+        "src": "source_11",
+        "alt": "alternative_text_11"
+    },
+    {
+        "genre": "Fantasy",
+        "bookName": "The Dragon's Legacy",
+        "authorName": "Sophie Carter",
+        "publishedYear": 2016,
+        "inLoan": "yes",
+        "loanStartDate": "17/07/2023",
+        "loanEndDate": "27/07/2023",
+        "src": "source_12",
+        "alt": "alternative_text_12"
+    },
+    {
+        "genre": "Romantic Comedy",
+        "bookName": "Love and Laughter",
+        "authorName": "Jonathan Davis",
+        "publishedYear": 2020,
+        "inLoan": "no",
+        "src": "source_13",
+        "alt": "alternative_text_13"
+    },
+    {
+        "genre": "Historical Fiction",
+        "bookName": "Secrets of the Renaissance",
+        "authorName": "Emma Roberts",
+        "publishedYear": 2017,
+        "inLoan": "yes",
+        "loanStartDate": "14/08/2023",
+        "loanEndDate": "24/08/2023",
+        "src": "source_14",
+        "alt": "alternative_text_14"
+    },
+    {
+        "genre": "Thriller",
+        "bookName": "Fatal Conspiracy",
+        "authorName": "Ryan Mitchell",
+        "publishedYear": 2021,
+        "inLoan": "no",
+        "src": "source_15",
+        "alt": "alternative_text_15"
+    },
+    {
+        "genre": "Adventure",
+        "bookName": "Island of Legends",
+        "authorName": "Grace Thompson",
+        "publishedYear": 2015,
+        "inLoan": "yes",
+        "loanStartDate": "20/09/2023",
+        "loanEndDate": "30/09/2023",
+        "src": "source_16",
+        "alt": "alternative_text_16"
+    },
+    {
+        "genre": "Dystopian",
+        "bookName": "Rebellion's End",
+        "authorName": "Daniel Foster",
+        "publishedYear": 2022,
+        "inLoan": "no",
+        "src": "source_17",
+        "alt": "alternative_text_17"
+    },
+    {
+        "genre": "Comedy",
+        "bookName": "The Hilarious Misadventures",
+        "authorName": "Laura White",
+        "publishedYear": 2014,
+        "inLoan": "no",
+        "src": "source_18",
+        "alt": "alternative_text_18"
+    },
+    {
+        "genre": "Psychological Thriller",
+        "bookName": "Lost Minds",
+        "authorName": "Sophie Turner",
+        "publishedYear": 2019,
+        "inLoan": "yes",
+        "loanStartDate": "05/11/2023",
+        "loanEndDate": "15/11/2023",
+        "src": "source_19",
+        "alt": "alternative_text_19"
+    },
+    {
+        "genre": "Science Fiction",
+        "bookName": "Parallel Universes",
+        "authorName": "Kevin Adams",
+        "publishedYear": 2018,
+        "inLoan": "no",
+        "src": "source_20",
+        "alt": "alternative_text_20"
+    },
+    {
+        "genre": "Fantasy",
+        "bookName": "The Enchanted Forest",
+        "authorName": "Natalie Harris",
+        "publishedYear": 2016,
+        "inLoan": "yes",
+        "loanStartDate": "12/12/2023",
+        "loanEndDate": "22/12/2023",
+        "src": "source_21",
+        "alt": "alternative_text_21"
+    },
+    {
+        "genre": "Romantic Comedy",
+        "bookName": "Crazy Love",
+        "authorName": "Matthew Stewart",
+        "publishedYear": 2020,
+        "inLoan": "no",
+        "src": "source_22",
+        "alt": "alternative_text_22"
+    },
+    {
+        "genre": "Historical Fiction",
+        "bookName": "The Silk Road",
+        "authorName": "Jennifer Adams",
+        "publishedYear": 2017,
+        "inLoan": "yes",
+        "loanStartDate": "10/01/2024",
+        "loanEndDate": "20/01/2024",
+        "src": "source_23",
+        "alt": "alternative_text_23"
+    },
+    {
+        "genre": "Thriller",
+        "bookName": "Shattered Dreams",
+        "authorName": "Andrew Turner",
+        "publishedYear": 2021,
+        "inLoan": "no",
+        "src": "source_24",
+        "alt": "alternative_text_24"
+    },
+    {
+        "genre": "Adventure",
+        "bookName": "Lost in the Amazon",
+        "authorName": "Eva Martinez",
+        "publishedYear": 2015,
+        "inLoan": "yes",
+        "loanStartDate": "18/02/2024",
+        "loanEndDate": "28/02/2024",
+        "src": "source_25",
+        "alt": "alternative_text_25"
+    },
+    {
+        "genre": "Dystopian",
+        "bookName": "Uprising",
+        "authorName": "Nicholas Carter",
+        "publishedYear": 2022,
+        "inLoan": "no",
+        "src": "source_26",
+        "alt": "alternative_text_26"
+    },
+    {
+        "genre": "Comedy",
+        "bookName": "The Jester's Dilemma",
+        "authorName": "Maria Rodriguez",
+        "publishedYear": 2014,
+        "inLoan": "no",
+        "src": "source_27",
+        "alt": "alternative_text_27"
+    },
+    {
+        "genre": "Psychological Thriller",
+        "bookName": "Twisted Minds",
+        "authorName": "Emma Turner",
+        "publishedYear": 2019,
+        "inLoan": "yes",
+        "loanStartDate": "01/04/2024",
+        "loanEndDate": "11/04/2024",
+        "src": "source_28",
+        "alt": "alternative_text_28"
+    },
+    {
+        "genre": "Science Fiction",
+        "bookName": "Interstellar Voyage",
+        "authorName": "John Anderson",
+        "publishedYear": 2018,
+        "inLoan": "no",
+        "src": "source_29",
+        "alt": "alternative_text_29"
+    },
+    {
+        "genre": "Fantasy",
+        "bookName": "The Sorcerer's Apprentice",
+        "authorName": "Lily Roberts",
+        "publishedYear": 2016,
+        "inLoan": "yes",
+        "loanStartDate": "17/05/2024",
+        "loanEndDate": "27/05/2024",
+        "src": "source_30",
+        "alt": "alternative_text_30"
+    },
+    {
+        "genre": "Romance",
+        "bookName": "Eternal Love",
+        "authorName": "Christopher Davis",
+        "publishedYear": 2019,
+        "inLoan": "no",
+        "src": "source_31",
+        "alt": "alternative_text_31"
+    },
+    {
+        "genre": "Historical Fiction",
+        "bookName": "Revolutionary Tales",
+        "authorName": "Sophia Harris",
+        "publishedYear": 2017,
+        "inLoan": "yes",
+        "loanStartDate": "14/06/2024",
+        "loanEndDate": "24/06/2024",
+        "src": "source_32",
+        "alt": "alternative_text_32"
+    },
+    {
+        "genre": "Thriller",
+        "bookName": "The Silent Witness",
+        "authorName": "Robert Mitchell",
+        "publishedYear": 2021,
+        "inLoan": "no",
+        "src": "source_33",
+        "alt": "alternative_text_33"
+    },
+    {
+        "genre": "Adventure",
+        "bookName": "Journey to the Center",
+        "authorName": "Grace Davis",
+        "publishedYear": 2015,
+        "inLoan": "yes",
+        "loanStartDate": "20/07/2024",
+        "loanEndDate": "30/07/2024",
+        "src": "source_34",
+        "alt": "alternative_text_34"
+    },
+    {
+        "genre": "Dystopian",
+        "bookName": "Collapse",
+        "authorName": "James Foster",
+        "publishedYear": 2022,
+        "inLoan": "no",
+        "src": "source_35",
+        "alt": "alternative_text_35"
+    },
+    {
+        "genre": "Comedy",
+        "bookName": "Hilarity Ensues",
+        "authorName": "Laura Thompson",
+        "publishedYear": 2014,
+        "inLoan": "no",
+        "src": "source_36",
+        "alt": "alternative_text_36"
+    },
+    {
+        "genre": "Psychological Thriller",
+        "bookName": "Whispered Secrets",
+        "authorName": "Sophie Foster",
+        "publishedYear": 2019,
+        "inLoan": "yes",
+        "loanStartDate": "05/09/2024",
+        "loanEndDate": "15/09/2024",
+        "src": "source_37",
+        "alt": "alternative_text_37"
+    },
+    {
+        "genre": "Science Fiction",
+        "bookName": "Time Warp",
+        "authorName": "Daniel Turner",
+        "publishedYear": 2018,
+        "inLoan": "no",
+        "src": "source_38",
+        "alt": "alternative_text_38"
+    },
+    {
+        "genre": "Fantasy",
+        "bookName": "The Lost Kingdom",
+        "authorName": "Natalie Evans",
+        "publishedYear": 2016,
+        "inLoan": "yes",
+        "loanStartDate": "12/10/2024",
+        "loanEndDate": "22/10/2024",
+        "src": "source_39",
+        "alt": "alternative_text_39"
+    },
+    {
+        "genre": "Romantic Comedy",
+        "bookName": "Fool for Love",
+        "authorName": "Matthew Harris",
+        "publishedYear": 2020,
+        "inLoan": "no",
+        "src": "source_40",
+        "alt": "alternative_text_40"
+    }
+
+]

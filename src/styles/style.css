@@ -32,7 +32,6 @@ header {
 
 nav {
   background-color: white;
-  color: #fff;
   text-align: center;
   padding: 10px 0;
   display: flex;
@@ -42,6 +41,9 @@ nav {
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 5px; /* Add space below the navbar */
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure it's on top of other elements */
 }
 nav .logo {
   display: flex;
@@ -52,7 +54,7 @@ nav .logo a {
   display: block;
 }
 nav .logo img {
-  width: 80px;
+  width: 100px;
   height: auto;
 }
 nav ul {
@@ -60,6 +62,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 nav ul li {
   margin: 0 10px;
@@ -72,6 +75,7 @@ nav ul li a {
   color: #007BFF;
   padding: 10px 15px;
   display: inline-block;
+  font-size: 20px; /* Set your desired font size */
 }
 nav ul li a:hover {
   background-color: #dfefff;
@@ -89,7 +93,7 @@ nav ul li ul {
   left: 0;
   background-color: white;
   padding: 10px 0;
-  font-size: small;
+  font-size: 12px;
   /* Horizontal line separator for submenu */
 }
 nav ul li ul li:not(:last-child)::after {
@@ -108,6 +112,23 @@ nav ul li ul li {
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  /* Media query for smaller screens */
+  nav ul {
+    align-items: center; /* Center align items horizontally */
+  }
+  nav ul li {
+    margin: 0;
+  }
+  nav ul li a {
+    font-size: small; /* Adjust font size for smaller screens */
+  }
+  nav ul li:not(:last-child)::after {
+    content: ""; /*removed vertical line for small screens*/
+    color: #b7daff;
+    margin-left: 10px;
+  }
+}
 .breadcrumbs {
   background-color: rgb(77, 77, 77);
   color: #fff;
@@ -120,8 +141,39 @@ nav ul li ul li {
   margin-bottom: 5px; /* Add space below the breadcrumbs */
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+aside {
+  max-width: 200px;
+  width: 100%;
+  margin-bottom: 5px; /* 5px space between aside and content-block */
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 5px; /* 5px space between aside and content-block */
+}
+@media (max-width: 767px) {
+  aside {
+    margin-bottom: 5px;
+    max-width: 100%;
+  }
+}
+
 .content-block {
-  max-width: 1000px;
+  max-width: 995px;
+  width: 100%;
   margin: 0 auto;
   padding: 40px;
   box-sizing: border-box;
@@ -152,13 +204,13 @@ nav ul li ul li {
 .content-block .loan-button:hover {
   background-color: #0056b3;
 }
-
-aside {
-  max-width: 200px;
-  width: 100%;
-  margin-right: 5px; /* 5px space between aside and content-block */
-  border-radius: 10px;
-  background-color: #fff;
-  padding: 20px;
-  box-sizing: border-box;
+@media (max-width: 1200px) {
+  .content-block {
+    max-width: calc(100% - 20px);
+  }
+}
+@media (max-width: 767px) {
+  .content-block {
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
