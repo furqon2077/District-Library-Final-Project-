@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(221, 220, 220);
+  background-color: rgb(238, 238, 238);
 }
 
 header {
@@ -95,7 +95,7 @@ nav ul li ul {
 nav ul li ul li:not(:last-child)::after {
   content: "";
   display: block;
-  height: 1px;
+  height: 0px; /*line is removed by default*/
   background-color: #007BFF;
   margin: 5px 0;
 }
@@ -109,7 +109,8 @@ nav ul li ul li {
 }
 
 .breadcrumbs {
-  background-color: white;
+  background-color: rgb(77, 77, 77);
+  color: #fff;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
@@ -120,7 +121,7 @@ nav ul li ul li {
 }
 
 .content-block {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px;
   box-sizing: border-box;
@@ -150,4 +151,14 @@ nav ul li ul li {
 }
 .content-block .loan-button:hover {
   background-color: #0056b3;
+}
+
+aside {
+  max-width: 200px;
+  width: 100%;
+  margin-right: 5px; /* 5px space between aside and content-block */
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
