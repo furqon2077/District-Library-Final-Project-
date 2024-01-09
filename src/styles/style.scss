@@ -82,6 +82,8 @@ body {
           padding: 10px 15px;
           display: inline-block;
           font-size: 20px; /* Set your desired font size */
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 600;
   
           &:hover {
             background-color: #dfefff;
@@ -229,18 +231,21 @@ body {
   .gallery-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-around;
   }
   
   .gallery-item {
     width: 300px;
-    height: 300px;
+    height: 500px;
     margin: 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
     overflow: hidden;
   }
   
   .gallery-item img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     object-fit: cover;
   }
   
@@ -253,3 +258,43 @@ body {
     cursor: pointer;
   }
   
+
+  // dynamic book info
+
+$primaryColor: #2ecc71;
+$secondaryColor: #ff7c7c;
+
+.book-info {
+
+  p {
+    font-family: nunito sans, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    strong {
+      color: $primaryColor;
+    }
+  }
+
+  // Style for inLoan status
+  &[data-in-loan="yes"] {
+    background-color: $secondaryColor;
+
+    p {
+      strong {
+        color: white;
+      }
+    }
+  }
+}
+
+// Additional styles for the loan period
+.book-info[data-in-loan="yes"] {
+  .loan-period {
+    font-weight: bold;
+    color: $primaryColor;
+  }
+}

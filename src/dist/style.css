@@ -71,7 +71,9 @@ nav {
         padding: 10px 15px;
         display: inline-block;
         font-size: 20px;
-        /* Set your desired font size */ }
+        /* Set your desired font size */
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600; }
         nav ul li a:hover {
           background-color: #dfefff;
           border-radius: 10px; }
@@ -180,17 +182,20 @@ nav {
 
 .gallery-container {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 .gallery-item {
   width: 300px;
-  height: 300px;
+  height: 500px;
   margin: 10px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
   overflow: hidden; }
 
 .gallery-item img {
   width: 100%;
-  height: 100%;
+  height: 300px;
   object-fit: cover; }
 
 .pagination-container {
@@ -199,3 +204,22 @@ nav {
 .pagination-button {
   margin: 0 5px;
   cursor: pointer; }
+
+.book-info p {
+  font-family: nunito sans, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0; }
+  .book-info p strong {
+    color: #2ecc71; }
+
+.book-info[data-in-loan="yes"] {
+  background-color: #ff7c7c; }
+  .book-info[data-in-loan="yes"] p strong {
+    color: white; }
+
+.book-info[data-in-loan="yes"] .loan-period {
+  font-weight: bold;
+  color: #2ecc71; }

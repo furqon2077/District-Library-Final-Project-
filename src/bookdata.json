@@ -7,7 +7,7 @@
         "inLoan": "yes",
         "loanStartDate": "10/01/2023",
         "loanEndDate": "20/01/2023",
-        "src": "source_1",
+        "src": "img/books/1.jpg",
         "alt": "alternative_text_1"
     },
     {
@@ -16,7 +16,7 @@
         "authorName": "Emily Thompson",
         "publishedYear": 2020,
         "inLoan": "no",
-        "src": "source_2",
+        "src": "img/books/2.jpg",
         "alt": "alternative_text_2"
     },
     {
@@ -27,7 +27,7 @@
         "inLoan": "yes",
         "loanStartDate": "05/02/2023",
         "loanEndDate": "15/02/2023",
-        "src": "source_3",
+        "src": "img/books/3.jpg",
         "alt": "alternative_text_3"
     },
     {
@@ -36,7 +36,7 @@
         "authorName": "Isabella Rodriguez",
         "publishedYear": 2019,
         "inLoan": "no",
-        "src": "source_4",
+        "src": "img/books/4.jpg",
         "alt": "alternative_text_4"
     },
     {
@@ -47,7 +47,7 @@
         "inLoan": "yes",
         "loanStartDate": "12/03/2023",
         "loanEndDate": "22/03/2023",
-        "src": "source_5",
+        "src": "img/books/5.jpg",
         "alt": "alternative_text_5"
     },
     {
@@ -56,7 +56,7 @@
         "authorName": "Samantha Reed",
         "publishedYear": 2021,
         "inLoan": "no",
-        "src": "source_6",
+        "src": "img/books/6.jpg",
         "alt": "alternative_text_6"
     },
     {
@@ -67,7 +67,7 @@
         "inLoan": "yes",
         "loanStartDate": "18/04/2023",
         "loanEndDate": "28/04/2023",
-        "src": "source_7",
+        "src": "img/books/7.jpg",
         "alt": "alternative_text_7"
     },
     {
@@ -76,7 +76,7 @@
         "authorName": "Olivia Baker",
         "publishedYear": 2022,
         "inLoan": "no",
-        "src": "source_8",
+        "src": "img/books/8.jpg",
         "alt": "alternative_text_8"
     },
     {
@@ -85,7 +85,7 @@
         "authorName": "Michael Johnson",
         "publishedYear": 2014,
         "inLoan": "no",
-        "src": "source_9",
+        "src": "img/books/9.jpg",
         "alt": "alternative_text_9"
     },
     {
@@ -96,7 +96,7 @@
         "inLoan": "yes",
         "loanStartDate": "01/06/2023",
         "loanEndDate": "11/06/2023",
-        "src": "source_10",
+        "src": "img/books/10.jpg",
         "alt": "alternative_text_10"
     },
     {
