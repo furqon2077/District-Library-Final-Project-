@@ -1,12 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; }
+  font-family: Arial, sans-serif;
+  background-color: #dddcdc; }
+
+header {
+  margin-bottom: 5px;
+  /* Add space below the header */ }
 
 .slider {
   max-width: 1200px;
   overflow: hidden;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  /* Add space below the slider */ }
   .slider .slider-container {
     display: flex;
     transition: transform 1.5s ease-in-out; }
@@ -19,30 +27,26 @@ body {
         display: block; }
 
 nav {
-  background-color: #333;
+  background-color: white;
   color: #fff;
   text-align: center;
-  padding: 10px 0px;
-  /* Added some padding for better spacing */
+  padding: 10px 0;
   display: flex;
   align-items: center;
-  /* Center align items horizontally */
   justify-content: space-between;
-  /* Add this to create space between logo and links */
   max-width: 1200px;
-  /* Set a maximum width for the centered navbar */
   margin: 0 auto;
-  /* Center the navbar using margin:auto */ }
+  border-radius: 10px;
+  margin-bottom: 5px;
+  /* Add space below the navbar */ }
   nav .logo {
     display: flex;
     align-items: center;
     margin-left: 20px; }
     nav .logo a {
-      display: block;
-      /* Make the entire area clickable */ }
+      display: block; }
     nav .logo img {
       width: 80px;
-      /* Adjust the width of the logo as needed */
       height: auto; }
   nav ul {
     list-style: none;
@@ -56,28 +60,30 @@ nav {
       /* Submenu styles */ }
       nav ul li a {
         text-decoration: none;
-        color: #fff;
+        color: #007BFF;
         padding: 10px 15px;
         display: inline-block; }
         nav ul li a:hover {
-          background-color: #555; }
+          background-color: #dfefff;
+          border-radius: 10px; }
       nav ul li:not(:last-child)::after {
         content: "|";
-        color: #fff;
+        color: #b7daff;
         margin-left: 10px; }
       nav ul li ul {
         display: none;
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #333;
+        background-color: white;
         padding: 10px 0;
+        font-size: small;
         /* Horizontal line separator for submenu */ }
         nav ul li ul li:not(:last-child)::after {
           content: "";
           display: block;
           height: 1px;
-          background-color: #fff;
+          background-color: #007BFF;
           margin: 5px 0; }
       nav ul li:hover > ul {
         display: block; }
@@ -87,39 +93,39 @@ nav {
         text-align: left; }
 
 .breadcrumbs {
-  background-color: #eee;
+  background-color: white;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
   box-sizing: border-box;
-  font-size: small; }
+  font-size: small;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  /* Add space below the breadcrumbs */ }
 
 .content-block {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
-  /* Increased padding for better spacing */
   box-sizing: border-box;
-  text-align: center; }
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  /* Add space below the content block */ }
   .content-block h2 {
     font-size: 36px;
-    /* Larger font size */
-    margin-bottom: 30px;
-    /* Increased margin for better spacing */ }
+    margin-bottom: 30px; }
   .content-block p {
     font-size: 20px;
-    /* Larger font size */
     line-height: 1.6;
-    margin-bottom: 20px;
-    /* Increased margin for better spacing */ }
+    margin-bottom: 20px; }
   .content-block .loan-button {
     background-color: #007BFF;
     color: #fff;
     border: none;
     padding: 15px 30px;
-    /* Increased padding for better spacing */
     font-size: 20px;
-    /* Larger font size */
     cursor: pointer;
     border-radius: 8px;
     transition: background-color 0.3s ease; }
