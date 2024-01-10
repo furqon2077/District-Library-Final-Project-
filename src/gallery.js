@@ -30,39 +30,50 @@ document.addEventListener("DOMContentLoaded", function () {
       if (currentSort === 'asc') {
         filteredData.sort((a, b) => a.bookName.localeCompare(b.bookName));
       } else if (currentSort === 'desc') {
-        filteredData.sort((a, b) => b.bookName.localeCompare(a.bookName));
+        filteredData.sort((a, b) => a.authorName.localeCompare(b.authorName));
       }
   
-      for (let i = startIndex; i < endIndex && i < filteredData.length; i++) {
-        const book = filteredData[i];
-        const item = document.createElement("div");
-        item.className = "gallery-item";
+      // displaying the books parameters in cards
+
+for (let i = startIndex; i < endIndex && i < filteredData.length; i++) {
+    const book = filteredData[i];
+    const item = document.createElement("div");
+    item.className = "gallery-item";
   
-        const img = document.createElement("img");
-        img.src = book.src;
-        img.alt = book.alt;
+    const img = document.createElement("img");
+    img.src = book.src;
+    img.alt = book.alt;
   
-        const bookInfo = document.createElement("div");
-        bookInfo.setAttribute("class", "book-info");
-        bookInfo.setAttribute("data-in-loan", book.inLoan);
-        
-        bookInfo.innerHTML = `
-          <p><strong>Genre:</strong> ${book.genre}</p>
-          <p><strong>Book:</strong> ${book.bookName}</p>
-          <p><strong>Author:</strong> ${book.authorName}</p>
-          <p><strong>Published Year:</strong> ${book.publishedYear}</p>
-          <p><strong>In Loan:</strong> ${book.inLoan}</p>
-          ${book.inLoan === 'yes' ? `<p class="loan-period"><strong>Loan Period:</strong> ${book.loanStartDate} to ${book.loanEndDate}</p>` : ''}
-        `;
-        
-        // Append the bookInfo element to the document or another container
-        document.body.appendChild(bookInfo);
-        
+    const bookInfo = document.createElement("div");
+    bookInfo.setAttribute("class", "book-info");
   
-        item.appendChild(img);
-        item.appendChild(bookInfo);
-        galleryContainer.appendChild(item);
-      }
+    // Check if the book is in loan or not
+    if (book.inLoan === 'yes') {
+      bookInfo.innerHTML = `
+        <p><strong>Genre:</strong> ${book.genre}</p>
+        <p><strong>Book:</strong> ${book.bookName}</p>
+        <p><strong>Author:</strong> ${book.authorName}</p>
+        <p><strong>Published Year:</strong> ${book.publishedYear}</p>
+        <p style="background-color: #ffcccc; border-radius: 10px; padding: 5px;"><strong>Loan:</strong> Unavailable</p>
+        <p class="loan-period"><strong>Loan Period:</strong> ${book.loanStartDate} to ${book.loanEndDate}</p>
+      `;
+    } else {
+      bookInfo.innerHTML = `
+        <p><strong>Genre:</strong> ${book.genre}</p>
+        <p><strong>Book:</strong> ${book.bookName}</p>
+        <p><strong>Author:</strong> ${book.authorName}</p>
+        <p><strong>Published Year:</strong> ${book.publishedYear}</p>
+        <p style="background-color: #ccffcc; border-radius: 10px; padding: 5px;"><strong>Loan:</strong> Available</p>
+        <button class="loan-button-available">Loan this book</button>
+      `;
+    }
+  
+    item.appendChild(img);
+    item.appendChild(bookInfo);
+    galleryContainer.appendChild(item);
+  }
+  
+  
     }
   
     function createPaginationButtons() {

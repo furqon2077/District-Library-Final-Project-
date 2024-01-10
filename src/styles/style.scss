@@ -261,40 +261,120 @@ body {
 
   // dynamic book info
 
-$primaryColor: #2ecc71;
-$secondaryColor: #ff7c7c;
-
-.book-info {
+  .book-info {
 
   p {
     font-family: nunito sans, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 0;
     margin-top: 0;
+  }
+}
 
-    strong {
-      color: $primaryColor;
+//loan book button if book is available
+
+.loan-button-available {
+  margin: 15px;
+  background-color: #4285f4; /* Google blue color */
+  color: #ffffff; /* White text color */
+  padding: 8px 10px; /* Adjust padding as needed */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+      background-color: #357ae8; /* Darker blue on hover */
+  }
+
+  &:active {
+      background-color: #1c4db7; /* Even darker blue on click */
+  }
+}
+
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px; /* Maximum width for responsiveness */
+
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px; /* Rounded corners */
+    width: 100%; /* Set width to 100% to make it responsive */
+    max-width: 800px; /* Set a maximum width */
+    font-size: 16px;
+    margin-right: 5px;
+
+    &:focus {
+      outline: none;
+      border-color: #4d90fe; /* Google's search bar border color when focused */
     }
   }
 
-  // Style for inLoan status
-  &[data-in-loan="yes"] {
-    background-color: $secondaryColor;
+  button {
+    padding: 10px 20px;
+    background-color: #4285f4; /* Google's search button background color */
+    color: #fff; /* Google's search button text color */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
 
-    p {
-      strong {
-        color: white;
-      }
+    &:hover {
+      background-color: #357ae8; /* Google's search button background color on hover */
+    }
+
+    &:active {
+      background-color: #2557a7; /* Google's search button background color when clicked */
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens if needed */
+    input {
+      max-width: 100%;
     }
   }
 }
 
-// Additional styles for the loan period
-.book-info[data-in-loan="yes"] {
-  .loan-period {
-    font-weight: bold;
-    color: $primaryColor;
+//sorting buttons
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0  auto;
+  max-width: 1200px;
+  margin-top: 10px;
+
+  button {
+    margin-bottom: 10px; /* Add space between buttons */
+    padding: 10px 20px;
+    background-color: #4285f4; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: #357ae8; /* Button background color on hover */
+    }
+
+    &:active {
+      background-color: #2557a7; /* Button background color when clicked */
+    }
+
+    & + button {
+      margin-left: 5px; /* Add space between adjacent buttons */
+    }
   }
 }
+
+
+
+

@@ -105,7 +105,7 @@
         "authorName": "Richard Turner",
         "publishedYear": 2018,
         "inLoan": "no",
-        "src": "source_11",
+        "src": "img/books/11.jpg",
         "alt": "alternative_text_11"
     },
     {
@@ -116,7 +116,7 @@
         "inLoan": "yes",
         "loanStartDate": "17/07/2023",
         "loanEndDate": "27/07/2023",
-        "src": "source_12",
+        "src": "img/books/12.jpg",
         "alt": "alternative_text_12"
     },
     {
@@ -125,7 +125,7 @@
         "authorName": "Jonathan Davis",
         "publishedYear": 2020,
         "inLoan": "no",
-        "src": "source_13",
+        "src": "img/books/13.jpg",
         "alt": "alternative_text_13"
     },
     {
@@ -136,7 +136,7 @@
         "inLoan": "yes",
         "loanStartDate": "14/08/2023",
         "loanEndDate": "24/08/2023",
-        "src": "source_14",
+        "src": "img/books/14.jpg",
         "alt": "alternative_text_14"
     },
     {
@@ -145,7 +145,7 @@
         "authorName": "Ryan Mitchell",
         "publishedYear": 2021,
         "inLoan": "no",
-        "src": "source_15",
+        "src": "img/books/15.jpg",
         "alt": "alternative_text_15"
     },
     {
@@ -156,7 +156,7 @@
         "inLoan": "yes",
         "loanStartDate": "20/09/2023",
         "loanEndDate": "30/09/2023",
-        "src": "source_16",
+        "src": "img/books/16.jpg",
         "alt": "alternative_text_16"
     },
     {
@@ -165,7 +165,7 @@
         "authorName": "Daniel Foster",
         "publishedYear": 2022,
         "inLoan": "no",
-        "src": "source_17",
+        "src": "img/books/17.jpg",
         "alt": "alternative_text_17"
     },
     {
@@ -174,7 +174,7 @@
         "authorName": "Laura White",
         "publishedYear": 2014,
         "inLoan": "no",
-        "src": "source_18",
+        "src": "img/books/18.jpg",
         "alt": "alternative_text_18"
     },
     {
@@ -185,7 +185,7 @@
         "inLoan": "yes",
         "loanStartDate": "05/11/2023",
         "loanEndDate": "15/11/2023",
-        "src": "source_19",
+        "src": "img/books/19.jpg",
         "alt": "alternative_text_19"
     },
     {
@@ -194,7 +194,7 @@
         "authorName": "Kevin Adams",
         "publishedYear": 2018,
         "inLoan": "no",
-        "src": "source_20",
+        "src": "img/books/20.jpg",
         "alt": "alternative_text_20"
     },
     {
@@ -205,7 +205,7 @@
         "inLoan": "yes",
         "loanStartDate": "12/12/2023",
         "loanEndDate": "22/12/2023",
-        "src": "source_21",
+        "src": "img/books/21.jpg",
         "alt": "alternative_text_21"
     },
     {
@@ -214,7 +214,7 @@
         "authorName": "Matthew Stewart",
         "publishedYear": 2020,
         "inLoan": "no",
-        "src": "source_22",
+        "src": "img/books/22.jpg",
         "alt": "alternative_text_22"
     },
     {
@@ -225,7 +225,7 @@
         "inLoan": "yes",
         "loanStartDate": "10/01/2024",
         "loanEndDate": "20/01/2024",
-        "src": "source_23",
+        "src": "img/books/23.jpg",
         "alt": "alternative_text_23"
     },
     {
@@ -234,7 +234,7 @@
         "authorName": "Andrew Turner",
         "publishedYear": 2021,
         "inLoan": "no",
-        "src": "source_24",
+        "src": "img/books/24.jpg",
         "alt": "alternative_text_24"
     },
     {
@@ -245,7 +245,7 @@
         "inLoan": "yes",
         "loanStartDate": "18/02/2024",
         "loanEndDate": "28/02/2024",
-        "src": "source_25",
+        "src": "img/books/25.jpg",
         "alt": "alternative_text_25"
     },
     {
@@ -254,7 +254,7 @@
         "authorName": "Nicholas Carter",
         "publishedYear": 2022,
         "inLoan": "no",
-        "src": "source_26",
+        "src": "img/books/26.jpg",
         "alt": "alternative_text_26"
     },
     {
@@ -263,7 +263,7 @@
         "authorName": "Maria Rodriguez",
         "publishedYear": 2014,
         "inLoan": "no",
-        "src": "source_27",
+        "src": "img/books/27.jpg",
         "alt": "alternative_text_27"
     },
     {
@@ -274,7 +274,7 @@
         "inLoan": "yes",
         "loanStartDate": "01/04/2024",
         "loanEndDate": "11/04/2024",
-        "src": "source_28",
+        "src": "img/books/28.jpg",
         "alt": "alternative_text_28"
     },
     {
@@ -283,7 +283,7 @@
         "authorName": "John Anderson",
         "publishedYear": 2018,
         "inLoan": "no",
-        "src": "source_29",
+        "src": "img/books/29.jpg",
         "alt": "alternative_text_29"
     },
     {
@@ -294,7 +294,7 @@
         "inLoan": "yes",
         "loanStartDate": "17/05/2024",
         "loanEndDate": "27/05/2024",
-        "src": "source_30",
+        "src": "img/books/30.jpg",
         "alt": "alternative_text_30"
     },
     {
@@ -303,7 +303,7 @@
         "authorName": "Christopher Davis",
         "publishedYear": 2019,
         "inLoan": "no",
-        "src": "source_31",
+        "src": "img/books/31.jpg",
         "alt": "alternative_text_31"
     },
     {
@@ -314,7 +314,7 @@
         "inLoan": "yes",
         "loanStartDate": "14/06/2024",
         "loanEndDate": "24/06/2024",
-        "src": "source_32",
+        "src": "img/books/32.jpg",
         "alt": "alternative_text_32"
     },
     {
@@ -323,7 +323,7 @@
         "authorName": "Robert Mitchell",
         "publishedYear": 2021,
         "inLoan": "no",
-        "src": "source_33",
+        "src": "img/books/33.jpg",
         "alt": "alternative_text_33"
     },
     {
@@ -334,7 +334,7 @@
         "inLoan": "yes",
         "loanStartDate": "20/07/2024",
         "loanEndDate": "30/07/2024",
-        "src": "source_34",
+        "src": "img/books/34.jpg",
         "alt": "alternative_text_34"
     },
     {
@@ -343,7 +343,7 @@
         "authorName": "James Foster",
         "publishedYear": 2022,
         "inLoan": "no",
-        "src": "source_35",
+        "src": "img/books/35.jpg",
         "alt": "alternative_text_35"
     },
     {
@@ -352,7 +352,7 @@
         "authorName": "Laura Thompson",
         "publishedYear": 2014,
         "inLoan": "no",
-        "src": "source_36",
+        "src": "img/books/36.jpg",
         "alt": "alternative_text_36"
     },
     {
@@ -363,7 +363,7 @@
         "inLoan": "yes",
         "loanStartDate": "05/09/2024",
         "loanEndDate": "15/09/2024",
-        "src": "source_37",
+        "src": "img/books/37.jpg",
         "alt": "alternative_text_37"
     },
     {
@@ -372,7 +372,7 @@
         "authorName": "Daniel Turner",
         "publishedYear": 2018,
         "inLoan": "no",
-        "src": "source_38",
+        "src": "img/books/38.jpg",
         "alt": "alternative_text_38"
     },
     {
@@ -383,7 +383,7 @@
         "inLoan": "yes",
         "loanStartDate": "12/10/2024",
         "loanEndDate": "22/10/2024",
-        "src": "source_39",
+        "src": "img/books/39.jpg",
         "alt": "alternative_text_39"
     },
     {
@@ -392,7 +392,7 @@
         "authorName": "Matthew Harris",
         "publishedYear": 2020,
         "inLoan": "no",
-        "src": "source_40",
+        "src": "img/books/40.jpg",
         "alt": "alternative_text_40"
     }
 
