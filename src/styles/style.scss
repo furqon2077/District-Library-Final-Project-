@@ -229,6 +229,7 @@ body {
   }
 
   .gallery-container {
+
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -237,10 +238,14 @@ body {
   .gallery-item {
     width: 300px;
     height: 500px;
-    margin: 10px;
-    background-color: rgb(243, 243, 243);
+    margin: 30px;
     border-radius: 10px;
     overflow: hidden;
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
   }
   
   .gallery-item img {
@@ -300,6 +305,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   max-width: 1200px; /* Maximum width for responsiveness */
+  margin-top: 15px;
 
   input {
     padding: 8px;
