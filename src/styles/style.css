@@ -356,6 +356,11 @@ nav ul li ul li {
 .sort button + button {
   margin-left: 5px; /* Add space between adjacent buttons */
 }
+@media (max-width: 767px) {
+  .sort button {
+    font-size: 12px;
+  }
+}
 
 .loan-form-container {
   max-width: 1200px;
@@ -410,4 +415,53 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+/* Main styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  max-width: 1200px;
+  width: 96%;
+  margin: 0 auto;
+  border-radius: 7px;
+  margin-top: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px; /* Adjust the size as needed */
+  padding-left: 50px;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-social {
+  /* Add styling for social media icons or links */
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
 }/*# sourceMappingURL=style.css.map */
