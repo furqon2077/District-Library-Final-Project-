@@ -15,7 +15,7 @@ body {
     max-width: 1200px;
     overflow: hidden;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-bottom: 5px; /* Add space below the slider */
   
     .slider-container {
@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-bottom: 5px; /* Add space below the navbar */
     position: sticky;
     top: 0; /* Stick to the top of the viewport */
@@ -73,21 +73,21 @@ body {
       flex-wrap: wrap; /* Allow items to wrap to the next line */
   
       li {
-        margin: 0 10px;
+        
         position: relative;
   
         a {
           text-decoration: none;
           color: #007BFF;
-          padding: 10px 15px;
+          padding: 8px 16px;
           display: inline-block;
-          font-size: 20px; /* Set your desired font size */
+          font-size: 18px; /* Set your desired font size */
           font-family: 'Nunito Sans', sans-serif;
-          font-weight: 600;
+          font-weight: 800;
   
           &:hover {
             background-color: #dfefff;
-            border-radius: 10px;
+            border-radius: 20px;
           }
         }
   
@@ -95,7 +95,6 @@ body {
         &:not(:last-child)::after {
           content: "|";
           color: #b7daff;
-          margin-left: 10px;
         }
   
         /* Submenu styles */
@@ -113,9 +112,10 @@ body {
             &:not(:last-child)::after {
               content: "";
               display: block;
-              height: 0px; /*line is removed by default*/
+              height: 0; /*line is removed by default*/
               background-color: #007BFF;
               margin: 5px 0;
+              
             }
           }
         }
@@ -156,14 +156,14 @@ body {
 }
 
   .breadcrumbs {
-    background-color: rgb(77, 77, 77);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #007BFF;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
     font-size: small;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-bottom: 5px; /* Add space below the breadcrumbs */
   }
 
@@ -188,7 +188,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     background-color: #f8f8f8;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-bottom: 5px; /* Add space below the content block */
   
     h2 {
@@ -208,10 +208,10 @@ body {
       background-color: #007BFF;
       color: #fff;
       border: none;
-      padding: 15px 30px;
-      font-size: 20px;
+      padding: 8px 16px;
+      font-size: 16px;
       cursor: pointer;
-      border-radius: 8px;
+      border-radius: 20px;
       transition: background-color 0.3s ease;
   
       &:hover {
@@ -274,22 +274,22 @@ body {
 }
 
 //loan book button if book is available
-
-.loan-button-available {
-  margin: 15px;
-  background-color: #4285f4; /* Google blue color */
+ 
+.gallery-item .book-info .LB-available {
+  border: none;
+  border-radius: 20px;
+  background-color: #007BFF;
+  margin-top: 15px;
   color: #ffffff; /* White text color */
-  padding: 8px 10px; /* Adjust padding as needed */
-  border-radius: 10px; /* Rounded corners */
+  padding: 8px 16px; /* Adjust padding as needed */
   cursor: pointer;
   transition: background-color 0.3s ease;
-
   &:hover {
-      background-color: #357ae8; /* Darker blue on hover */
+      background-color: #357ae8;
   }
 
   &:active {
-      background-color: #1c4db7; /* Even darker blue on click */
+      background-color: #2557a7; 
   }
 }
 
@@ -302,8 +302,8 @@ body {
   max-width: 1200px; /* Maximum width for responsiveness */
 
   input {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 8px;
+    border: 1px solid #4d90fe;
     border-radius: 20px; /* Rounded corners */
     width: 100%; /* Set width to 100% to make it responsive */
     max-width: 800px; /* Set a maximum width */
@@ -317,8 +317,8 @@ body {
   }
 
   button {
-    padding: 10px 20px;
-    background-color: #4285f4; /* Google's search button background color */
+    padding: 8px 16px;
+    background-color: #007BFF; /* Google's search button background color */
     color: #fff; /* Google's search button text color */
     border: none;
     border-radius: 20px; /* Rounded corners */
@@ -353,11 +353,13 @@ body {
 
   button {
     margin-bottom: 10px; /* Add space between buttons */
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px 20px;
-    background-color: #4285f4; /* Button background color */
+    background-color: #007BFF; /* Button background color */
     color: #fff; /* Button text color */
     border: none;
-    border-radius: 4px; /* Rounded corners */
+    border-radius: 20px; /* Rounded corners */
     cursor: pointer;
     font-size: 16px;
 
@@ -374,7 +376,3 @@ body {
     }
   }
 }
-
-
-
-

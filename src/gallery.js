@@ -54,7 +54,7 @@ for (let i = startIndex; i < endIndex && i < filteredData.length; i++) {
         <p><strong>Book:</strong> ${book.bookName}</p>
         <p><strong>Author:</strong> ${book.authorName}</p>
         <p><strong>Published Year:</strong> ${book.publishedYear}</p>
-        <p style="background-color: #ffcccc; border-radius: 10px; padding: 5px;"><strong>Loan:</strong> Unavailable</p>
+        <p style="background-color: #ffcccc; border-radius: 20px; padding: 7px; margin-top: 10px;"><strong>Loan:</strong> Unavailable</p>
         <p class="loan-period"><strong>Loan Period:</strong> ${book.loanStartDate} to ${book.loanEndDate}</p>
       `;
     } else {
@@ -63,8 +63,8 @@ for (let i = startIndex; i < endIndex && i < filteredData.length; i++) {
         <p><strong>Book:</strong> ${book.bookName}</p>
         <p><strong>Author:</strong> ${book.authorName}</p>
         <p><strong>Published Year:</strong> ${book.publishedYear}</p>
-        <p style="background-color: #ccffcc; border-radius: 10px; padding: 5px;"><strong>Loan:</strong> Available</p>
-        <button class="loan-button-available">Loan this book</button>
+        <p style="background-color: #ccffcc; border-radius: 20px; padding: 7px; margin-top: 10px;"><strong>Loan:</strong> Available</p>
+        <button class="LB-available">Loan this book</button>
       `;
     }
   
