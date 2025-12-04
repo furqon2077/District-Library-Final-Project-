@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+
 import App from "@/App.jsx";
-import "./src/styles/main.scss";  // global SCSS
+import "/src/styles/main.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <App />
+        <BrowserRouter basename="/District-Library-Final-Project-/">
+            <App />
+        </BrowserRouter>
     </React.StrictMode>
 );
-
