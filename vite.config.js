@@ -2,15 +2,12 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-    base: "/District-Library-Final-Project-/",
     plugins: [react()],
-    resolve: {
+    base: "/District-Library-Final-Project-/",
+        resolve: {
         alias: {
             "@": "/src",
         },
-    },
-    build: {
-        outDir: "dist", // ENSURES clean output
     },
 });
 
