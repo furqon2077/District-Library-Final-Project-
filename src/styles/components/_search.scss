@@ -1,0 +1,43 @@
+@use "../utils/_variables" as *;
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: $max-width;
+  width: 96%;
+  margin: 15px auto 0;
+
+  input {
+    padding: 8px;
+    border: 1px solid $blue;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    font-size: 16px;
+    margin-right: 5px;
+
+    &:focus {
+      outline: none;
+      border-color: $blue;
+    }
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: $blue;
+    color: $white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $blue-hover;
+    }
+
+    &:active {
+      background-color: $blue-active;
+    }
+  }
+}

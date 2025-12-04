@@ -1,90 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/styles/style.css">
-    <title>District Library</title>
+    <title>final-project</title>
   </head>
-
   <body>
-    <header>
-        <div class="slider">
-            <div class="slider-container">
-              <div class="slide">
-                <img src="./src/img/desktop/header1618x200.jpg" alt="Image 1">
-              </div>
-              <div class="slide">
-                <img src="./src/img/desktop/header21920x200.jpg" alt="Image 2">
-              </div>
-              <div class="slide">
-                <img src="./src/img/desktop/header3.jpg" alt="Image 3">
-              </div>
-            </div>
-          </div>
-    </header>
-
-    <main>
-      <nav>
-        <div class="logo">
-            <a href="./index.html"> <!-- Adjust the href to point to your home page -->
-            <img src="./src/img/desktop/logo3.png" alt="Library Logo">
-          </div>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./src/books.html">Books</a></li>
-          <li>
-            <a href="#">Services</a>
-            <!-- Submenu -->
-            <ul>
-              <li><a href="./src/loanservice.html">Loan books</a></li>
-              <li><a href="#">Service 2</a></li>
-              <li><a href="#">Service 3</a></li>
-            </ul>
-          </li>
-          <li><a href="./src/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="breadcrumbs">
-        <a href="./index.html">Home</a> > <a href="#">Category 1</a> > <a href="#">Subcategory 1.1</a> > Current Page
-      </div>
-
-      <div class="container">
-        <div class="content-block">
-          <h2>About District Library</h2>
-          <p>Welcome to District Library, your go-to place for a vast collection of books! We take pride in <b>offering more than 1000 books</b> across various genres.</p>
-          <p>Explore our diverse collection, from classic literature to contemporary bestsellers. Whether you're an avid reader or a casual book lover, there's something for everyone at District Library.</p>
-          <p>Enjoy the reading experience and feel free to borrow books through our convenient loan service.</p>
-      
-        <a href="./src/books.html" target="_self"><button class="loan-button">Check book availability</button></a>
-      </div>
-      </div>
-    </main>
-
-    <footer>
-      <div class="footer-container">
-        <div class="footer-logo">
-          <img src="./src/img/desktop/logo3.png" alt="Library Logo">
-        </div>
-        <div class="footer-links">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./src/books.html">Books</a></li>
-            <li><a href="./src/loanservice.html">Loan Service</a></li>
-            <li><a href="./src/contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-social">
-          <!-- Add your social media icons or links here -->
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2024 District Library. All rights reserved.</p>
-      </div>
-    </footer>
-
-    <script src="./src/index.js"></script>
-
+    <div id="root"></div>
+    <script type="module" src="main.jsx"></script>
   </body>
 </html>

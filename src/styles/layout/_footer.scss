@@ -1,0 +1,45 @@
+@use "../utils/_variables" as *;
+
+footer {
+  background-color: #333;
+  color: $white;
+  padding: 20px 0;
+  max-width: $max-width;
+  width: 96%;
+  margin: 0 auto;
+  border-radius: $border-radius;
+  margin-top: 5px;
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-logo img {
+      width: 100px;
+      padding-left: 50px;
+    }
+
+    .footer-links ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin-right: 20px;
+
+        a {
+          text-decoration: none;
+          color: $white;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+  }
+}

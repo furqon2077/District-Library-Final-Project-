@@ -1,0 +1,107 @@
+@use "../utils/_variables" as *;
+@use "../utils/_mixins" as *;
+
+.contact-hero {
+  background: linear-gradient(135deg, #e3f2ff, #f8fbff);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: $border-radius;
+  max-width: $max-width;
+  margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: 800;
+    font-family: $font-title;
+    color: $blue;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+.contact-card {
+  background: $white;
+  padding: 40px;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: $max-width;
+  margin: 10px auto;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: $font-title;
+    color: $blue;
+  }
+
+  p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  address {
+    margin-top: 10px;
+    font-style: normal;
+    line-height: 1.8;
+    font-size: 16px;
+
+    strong {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}
+
+.contact-map {
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: $max-width;
+  margin: 10px auto;
+
+  iframe {
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    border: none;
+  }
+}
+
+@include mobile {
+  .contact-hero {
+    padding: 40px 15px;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .contact-card {
+    padding: 20px;
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p,
+    address {
+      font-size: 14px;
+    }
+  }
+
+  .contact-map iframe {
+    height: 250px;
+  }
+}

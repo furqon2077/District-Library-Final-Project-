@@ -1,0 +1,145 @@
+@use "../utils/_variables" as *;
+
+.home-page {
+
+  /* HERO SECTION */
+  .hero {
+    background: linear-gradient(135deg, #e3f2ff, #f8fbff);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: $border-radius;
+    max-width: $max-width;
+    margin: 10px auto;
+
+    .hero-content {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: $blue;
+      margin-bottom: 20px;
+      font-family: $font-title;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+
+      .btn-primary,
+      .btn-secondary {
+        padding: 12px 28px;
+        border-radius: 30px;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .btn-primary {
+        background-color: $blue;
+        color: white;
+
+        &:hover {
+          background-color: $blue-hover;
+        }
+      }
+
+      .btn-secondary {
+        background-color: #fff;
+        border: 2px solid $blue;
+        color: $blue;
+
+        &:hover {
+          background-color: $blue-light;
+        }
+      }
+    }
+  }
+
+  /* FEATURED SECTION */
+  .featured {
+    max-width: $max-width;
+    margin: 40px auto;
+    text-align: center;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 25px;
+      font-family: $font-title;
+    }
+
+    .featured-grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .featured-card {
+        background: $white;
+        padding: 15px;
+        border-radius: $border-radius;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        width: 250px;
+
+        img {
+          width: 100%;
+          border-radius: $border-radius;
+        }
+
+        p {
+          margin-top: 10px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .btn-view-more {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: $blue;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $blue-hover;
+      }
+    }
+  }
+
+  /* STATS SECTION */
+  .stats {
+    max-width: $max-width;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .stat-item {
+      text-align: center;
+      margin: 20px;
+
+      h3 {
+        font-size: 32px;
+        font-weight: 800;
+        color: $blue;
+      }
+
+      p {
+        font-size: 16px;
+        color: #555;
+      }
+    }
+  }
+}

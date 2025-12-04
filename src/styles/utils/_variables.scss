@@ -1,0 +1,47 @@
+/* ---------------------------------------
+   COLORS
+---------------------------------------- */
+$blue: #007bff;
+$blue-light: #dfefff;
+$blue-hover: #357ae8;
+$blue-active: #2557a7;
+
+$gray-bg: rgb(238, 238, 238);
+$white: #ffffff;
+
+$text: #333333;
+$text-light: #666666;
+$text-strong: #111111;
+
+$border-color: #e0e0e0;
+
+/* ---------------------------------------
+   FONTS
+---------------------------------------- */
+$font-main: "Open Sans", sans-serif;     // body text
+$font-title: "Nunito Sans", sans-serif;  // headings
+
+/* For easy use across typography.scss */
+$font-primary: $font-main;
+$font-secondary: $font-title;
+
+/* ---------------------------------------
+   LAYOUT
+---------------------------------------- */
+$max-width: 1200px;
+$border-radius: 7px;
+$spacing: 16px; // default spacing unit
+
+/* ---------------------------------------
+   SHADOWS
+---------------------------------------- */
+$shadow-default: 0 4px 12px rgba(0, 0, 0, 0.08);
+$shadow-soft: 0 2px 6px rgba(0, 0, 0, 0.05);
+$shadow-strong: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+/* ---------------------------------------
+   BREAKPOINTS
+---------------------------------------- */
+$mobile: 768px;
+$tablet: 992px;
+$desktop: 1200px;

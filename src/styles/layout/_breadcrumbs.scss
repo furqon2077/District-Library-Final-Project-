@@ -1,0 +1,13 @@
+@use "../utils/_variables" as *;
+
+.breadcrumbs {
+  background-color: $white;
+  color: $blue;
+  max-width: $max-width;
+  width: 96%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: small;
+  border-radius: $border-radius;
+  margin-bottom: 5px;
+}
