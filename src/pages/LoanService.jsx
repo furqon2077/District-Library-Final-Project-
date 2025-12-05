@@ -63,7 +63,7 @@ export default function LoanService() {
             <nav>
                 <div className="logo">
                     <Link to="/">
-                        <img src="/src/img/desktop/logo3.png" alt="Library Logo" />
+                        <img src="logo3.png" alt="Library Logo" />
                     </Link>
                 </div>
 
@@ -165,7 +165,7 @@ export default function LoanService() {
             <footer>
                 <div className="footer-container">
                     <div className="footer-logo">
-                        <img src="/src/img/desktop/logo3.png.png" alt="Library Logo" />
+                        <img src="logo3.png" alt="Library Logo" />
                     </div>
 
                     <div className="footer-links">

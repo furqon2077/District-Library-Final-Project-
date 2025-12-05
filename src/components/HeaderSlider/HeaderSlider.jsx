@@ -5,9 +5,9 @@ export default function HeaderSlider() {
     const [index, setIndex] = useState(0);
 
     const images = [
-        "/src/img/desktop/header1618x200.jpg",
-        "/src/img/desktop/header21920x200.jpg",
-        "/src/img/desktop/header3.jpg",
+        "header1618x200.jpg",
+        "header21920x200.jpg",
+        "header3.jpg",
     ];
 
     // Auto-slide every 6 seconds

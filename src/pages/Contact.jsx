@@ -13,7 +13,7 @@ export default function Contact() {
             <nav>
                 <div className="logo">
                     <Link to="/">
-                        <img src="/src/img/desktop/logo3.png" alt="Library Logo" />
+                        <img src="logo3.png" alt="Library Logo" />
                     </Link>
                 </div>
 
@@ -70,7 +70,7 @@ export default function Contact() {
             <footer>
                 <div className="footer-container">
                     <div className="footer-logo">
-                        <img src="/src/img/desktop/logo3.png" alt="Library Logo" />
+                        <img src="logo3.png" alt="Library Logo" />
                     </div>
 
                     <div className="footer-links">
@@ -86,7 +86,7 @@ export default function Contact() {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2024 District Library. All rights reserved.</p>
+                    <p>&copy; 2024-present District Library. All rights reserved.</p>
                 </div>
             </footer>
         </div>

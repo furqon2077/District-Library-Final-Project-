@@ -15,7 +15,7 @@ export default function Home() {
             <nav>
                 <div className="logo">
                     <Link to="/">
-                        <img src="/src/img/desktop/logo3.png" alt="Library Logo" />
+                        <img src="logo3.png" alt="Library Logo" />
                     </Link>
                 </div>
 
@@ -48,17 +48,17 @@ export default function Home() {
 
                 <div className="featured-grid">
                     <div className="featured-card">
-                        <img src="/src/img/desktop/header3.jpg" alt="Featured 1" />
+                        <img src="header3.jpg" alt="Featured 1" />
                         <p>The Great Adventure</p>
                     </div>
 
                     <div className="featured-card">
-                        <img src="/src/img/desktop/header21920x200.jpg" alt="Featured 2" />
+                        <img src="header21920x200.jpg" alt="Featured 2" />
                         <p>Mystery of the Woods</p>
                     </div>
 
                     <div className="featured-card">
-                        <img src="/src/img/desktop/header1618x200.jpg" alt="Featured 3" />
+                        <img src="header1618x200.jpg" alt="Featured 3" />
                         <p>Coding for Beginners</p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ export default function Home() {
             <footer>
                 <div className="footer-container">
                     <div className="footer-logo">
-                        <img src="/src/img/desktop/logo3.png" alt="Library Logo" />
+                        <img src="logo3.png" alt="Library Logo" />
                     </div>
 
                     <div className="footer-links">
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2024 District Library. All rights reserved.</p>
+                    <p>&copy; 2024-present District Library. All rights reserved.</p>
                 </div>
             </footer>
         </div>
